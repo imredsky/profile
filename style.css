@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+body {
+ background-color:rgb(190, 214, 206);
+ color: rgb(31, 188, 235);
+ font-family:'Oswald';
+}
+
+h1 {
+ color: rgb(41, 117, 117);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 40px;
+ line-height:2 ;
+}
+
+h2 {
+  color:rgb(26, 77, 47);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-circle {border-radius: 50%;}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-blue {
+  background: rgb(240, 243, 244);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  width: 500px;
+  margin: 0 auto;
+}
+.text-center {
+text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+li i {
+  font-size: 40px;
+  color: rgb(89, 92, 92);
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
